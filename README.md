@@ -35,13 +35,13 @@ cd blockchain-hotswap-service
 ```
 # Create virtual environment
 python -m venv venv
-python -m venv venv
+source venv/bin/activate 
 ```
 
-3. cp .env.example .env:
+3. create and edit .env file with your providers configurations:
 
 ```
-ALCHEMY_API_KEY=your_api_key
+cp .env.example .env
 ```
 
 ### Running with Python
