@@ -2,17 +2,6 @@
 
 A service that streams blockchain blocks from multiple providers and automatically switches between them when issues are detected, ensuring a continuous and reliable block stream.
 
-## Features
-
-- Connects to multiple blockchain node providers (Alchemy, Chainstack, etc.)
-- Continuously fetches and processes blocks in sequential order
-- Detects issues with providers based on health metrics:
-  - Block delay (significant deviation from expected block times)
-  - Block integrity (missing or malformed block data)
-  - Provider health (response times, HTTP errors, connectivity failures)
-- Automatically switches to a healthy provider when issues are detected
-- Keeps track of missing blocks and attempts to recover them
-- Outputs block data in structured JSON format
 
 ## Setup
 
