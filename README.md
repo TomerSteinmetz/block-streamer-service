@@ -3,12 +3,6 @@
 A service that streams blockchain blocks from multiple providers and automatically switches between them when issues are detected, ensuring a continuous and reliable block stream.
 
 
-## Setup
-
-### Prerequisites
-
-- Python 3.8+ or Docker
-- Alchemy API key (free tier available at [https://dashboard.alchemy.com](https://dashboard.alchemy.com))
 
 ### Quick Setup
 
