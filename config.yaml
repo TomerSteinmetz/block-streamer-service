@@ -1,0 +1,10 @@
+providers:
+  - name: Alchemy
+    url_template: "${ALCHEMY_BASE_URL}/${ALCHEMY_API_KEY}"
+#  - name: Chainstack
+#    url_template: https://nd-422-757-666.p2pify.com/0a9d79d93fb2f4a4b1e04695da2b77a7/
+expected_block_time: 12
+start_confirmations: 6
+lag_threshold_s: 30
+failure_ratio: 0.2
+score_halflife_s: 60

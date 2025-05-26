@@ -1,0 +1,6 @@
+web3
+pytest
+aiohttp
+pytest-asyncio
+pyyaml
+dotenv
