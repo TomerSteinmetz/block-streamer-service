@@ -2,6 +2,7 @@
 
 A service that streams blockchain blocks from multiple providers and automatically switches between them when issues are detected, ensuring a continuous and reliable block stream.
 
+[Architecture Documentation](ARCHITECTURE.md)
 
 
 ### Quick Setup
