@@ -77,7 +77,7 @@ To add a new provider, update the `providers` in `config.yaml`:
 
 ```
 
-## Production Monitoring
+## Production Monitoring & Future Improvements
 
 ### Recommended Monitoring Approach
 
@@ -114,8 +114,8 @@ Tiered Alerts: Warning (1 provider down) → Critical (multiple providers down) 
 
 Given ample time to build, these improvements would enhance the solution:
 
-1. Probe idle providers every 10-30 s to keep fresh health scores and avoid switching to another bad node
-2. Utilize the async await design for better concurrency in more areas in the app (e.g. processing blocks)
+1. Background task to probe idle providers every 10-30 s to keep fresh health scores and avoid switching to another bad node
+2. Utilize the async await design for better concurrency in more areas in the app (e.g. processing blocks).
 
 3. Advanced Provider Metrics: More sophisticated health scoring based on historical performance.
 
